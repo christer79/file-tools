@@ -1,4 +1,4 @@
-package file-tools
+package fileTools
 
 import (
 	"fmt"
