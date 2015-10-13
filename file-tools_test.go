@@ -1,4 +1,4 @@
-package fileTools
+package file-tools
 
 import "testing"
 
