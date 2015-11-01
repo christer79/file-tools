@@ -24,12 +24,8 @@ func FindFiles(root, pattern string) []string {
 	var matchingFiles []string
 	for _, path := range fileList {
 		files, _ := filepath.Glob(path + "/" + pattern)
-		fmt.Println("Files")
-		fmt.Println(files)
 		for _, file := range files {
 			matchingFiles = append(matchingFiles, file)
-			fmt.Println("Matching")
-			fmt.Println(matchingFiles)
 		}
 	}
 	return matchingFiles
